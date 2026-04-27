@@ -1,34 +1,41 @@
 jQuery(document).ready(function ($) {
 
-  var courseSchedules = {
-    "2595": {
-      "heading": "Baby Massage - Battersea (6 Week Course) - 65 Webbs Road, SW11 6SD",
-      "dates": {
-        "15/05/2026": [
-          "Class 1 | Mon 27th Apr, 10:45am - 11:45am",
-          "Class 2 | Mon 4th May, 10:45am - 11:45am",
-          "Class 3 | Mon 11th May, 10:45am - 11:45am",
-          "Class 4 | Mon 18th May, 10:45am - 11:45am",
-          "Class 5 | Mon 25th May, 10:45am - 11:45am",
-          "Class 6 | Mon 1st Jun, 10:45am - 11:45am"
-        ]
-      }
-    },
-
-    "2732": {
-      "heading": "Baby Massage - Dulwich (6 Week Course) - The Plough Bar, Lordship Lane, SE22 8JJ",
-      "dates": {
-        "29/04/2026": [
-          "Class 1 | Wed 29th Apr, 10:45am - 11:45am",
-          "Class 2 | Wed 6th May, 10:45am - 11:45am",
-          "Class 3 | Wed 13th May, 10:45am - 11:45am",
-          "Class 4 | Wed 20th May, 10:45am - 11:45am",
-          "Class 5 | Wed 27th May, 10:45am - 11:45am",
-          "Class 6 | Wed 3rd Jun, 10:45am - 11:45am"
-        ]
-      }
+   var courseSchedules = {
+  "2595": {
+    "heading": "Baby Massage - Battersea (6 Week Course) - 65 Webbs Road, SW11 6SD",
+    "dates": {
+      "27/04/2026": [
+        "Class 1 | Mon 27th Apr, 10:45am - 11:45am",
+        "Class 2 | Mon 4th May, 10:45am - 11:45am",
+        "Class 3 | Mon 11th May, 10:45am - 11:45am",
+        "Class 4 | Mon 18th May, 10:45am - 11:45am",
+        "Class 5 | Mon 25th May, 10:45am - 11:45am",
+        "Class 6 | Mon 1st Jun, 10:45am - 11:45am"
+      ],
+      "15/05/2026": [
+        "Class 1 | Fri 15th May, 11:00am - 12:00pm",
+        "Class 2 | Fri 22nd May, 11:00am - 12:00pm",
+        "Class 3 | Fri 29th May, 11:00am - 12:00pm",
+        "Class 4 | Fri 5th Jun, 11:00am - 12:00pm",
+        "Class 5 | Fri 12th Jun, 11:00am - 12:00pm",
+        "Class 6 | Fri 19th Jun, 11:00am - 12:00pm"
+      ]
     }
-  };
+  },
+  "2732": {
+    "heading": "Baby Massage - Dulwich (6 Week Course) - The Plough Bar, Lordship Lane, SE22 8JJ",
+    "dates": {
+      "29/04/2026": [
+        "Class 1 | Wed 29th Apr, 10:45am - 11:45am",
+        "Class 2 | Wed 6th May, 10:45am - 11:45am",
+        "Class 3 | Wed 13th May, 10:45am - 11:45am",
+        "Class 4 | Wed 20th May, 10:45am - 11:45am",
+        "Class 5 | Wed 27th May, 10:45am - 11:45am",
+        "Class 6 | Wed 3rd Jun, 10:45am - 11:45am"
+      ]
+    }
+  }
+};
 
   $('#wc_bookings_field_resource').on('change', function () {
     $('#class-dates-output').html('<p><em>Your personalised schedule will appear here as soon as you select a date.</em></p>');
