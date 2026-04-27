@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
     "2595": {
       "heading": "Baby Massage - Battersea (6 Week Course) - 65 Webbs Road, SW11 6SD",
       "dates": {
-        "27/04/2026": [
+        "15/05/2026": [
           "Class 1 | Mon 27th Apr, 10:45am - 11:45am",
           "Class 2 | Mon 4th May, 10:45am - 11:45am",
           "Class 3 | Mon 11th May, 10:45am - 11:45am",
